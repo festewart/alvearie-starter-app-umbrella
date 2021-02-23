@@ -11,7 +11,7 @@ annotations:
   APPLICATION_VERSION: null
 image:
   repository: us.icr.io/vpcwatkins-rns/alvearie-starter-app
-  tag: a-p3.3.0-tekton-20210223200919-50615c681fe6701144a3333dde4b0ec2b3aac82e
+  tag: a-p3.3.0-tekton-20210223204519-20ff371b8a0b64a82d26e2db275572a445ccdea2
   pullSecret: regsecret
   pullPolicy: IfNotPresent
   # for local development against Minikube registry
@@ -20,8 +20,8 @@ image:
 service:
   name: nodejs-starter-service
   type: NodePort
-  externalPort: replace-with-override
-  internalPort: replace-with-override
+  externalPort: 8088
+  internalPort: 8088
 ingress:
   enabled: false
   # Used to create an Ingress record.
