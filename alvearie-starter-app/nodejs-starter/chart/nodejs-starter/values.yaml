@@ -11,7 +11,7 @@ annotations:
   APPLICATION_VERSION: null
 image:
   repository: us.icr.io/vpcwatkins-rns/alvearie-starter-app
-  tag: a-p3.5.0-tekton-20210811202702-4a80e60e51b438f53151c287233564da24568105
+  tag: a-p3.5.3-tekton-20211006123332-4a80e60e51b438f53151c287233564da24568105
   pullSecret: regsecret
   pullPolicy: IfNotPresent
   # for local development against Minikube registry
